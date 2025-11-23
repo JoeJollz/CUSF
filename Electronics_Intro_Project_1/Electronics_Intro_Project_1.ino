@@ -1,7 +1,7 @@
 #include <Wire.h>
 #include <Adafruit_BMP085.h>
 #include <SD.h>
-
+//test connection. 
 Adafruit_BMP085 bmp; // creating an object called bmp. bmp is the instance i use to called functions. 
 File logFile;  // variable name 'logFile' of type file. Can write into this file as well. 
 
