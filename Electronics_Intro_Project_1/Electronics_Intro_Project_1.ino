@@ -62,8 +62,6 @@ void loop() {
   float abs_altitude = calculateAltitude(pressure);
   float rel_altitude = abs_altitude - altitude_init; 
 
-  // calc the relative altitude, from relative pressure. 
-
   Serial.print("Temp: ");
   Serial.print(temperature);
   Serial.print(" °C, Pressure: ");
