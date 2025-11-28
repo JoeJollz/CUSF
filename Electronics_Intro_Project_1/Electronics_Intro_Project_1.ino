@@ -82,5 +82,4 @@ void loop() {
   logFile.print(",");
   logFile.println(rel_altitude);
   logFile.flush();
-  
 }
