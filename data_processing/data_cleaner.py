@@ -1,4 +1,4 @@
-f = open("DATA.txt", mode = "r", encoding = "UTF-8")
+f = open("DATA.txt", mode ="r", encoding ="UTF-8")
 
 # check for extra heading after initial heading
 text = f.read()
@@ -41,6 +41,6 @@ for i in range(len(text)):
 
 f.close()
 
-fn = open("DATA-copy.csv", mode = "x", encoding="UTF-8")
+fn = open("L2cleaned.csv", mode ="x", encoding="UTF-8")
 fn.write(corrected_text)
 fn.close()
